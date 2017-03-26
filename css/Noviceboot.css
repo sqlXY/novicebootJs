@@ -1,0 +1,51 @@
+.Noviceboot {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.novi-token {
+	position: absolute;
+	color: white;
+	width: 200px;
+}
+
+.novi-ok {
+	position: absolute;
+	padding: 18px 38px;
+	border: 2px solid #fff;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.novi-ok:hover {
+	box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.7) inset;
+}
+
+.novi-point {
+	position: absolute;
+}
+
+.novi-flipx {
+    -moz-transform:scaleX(-1);
+    -webkit-transform:scaleX(-1);
+    -o-transform:scaleX(-1);
+    transform:scaleX(-1);
+    /*IE*/
+    filter:FlipH;
+}
+
+.novi-flipy {
+    -moz-transform:scaleY(-1);
+    -webkit-transform:scaleY(-1);
+    -o-transform:scaleY(-1);
+    transform:scaleY(-1);
+    /*IE*/
+    filter:FlipV;
+}
