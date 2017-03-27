@@ -1,7 +1,7 @@
 # NovicebootJs 
 ### 简易网页模块介绍与引导浮层构建工具
 
-##基本介绍
+## 基本介绍
 通过NovicebootJs，您可以方便的在您的网页上创建引导浮层，对网页的各个部分在浮层上进行详细介绍，以便让用户了解具体的功效。
 
  - NovicebootJs将在您的网页中建立一个全覆盖的浮层，并将说明文字置于上面。您可以在同一个页面中建立多个浮层，他们将会按顺序先后显示。
@@ -9,7 +9,7 @@
  - NovicebootJs可以绑定dom元素，使文字显示在被绑定元素的上下左右四个方位，并且自动提供一个箭头指向该元素。
 
 
-##开始使用
+## 开始使用
 
  - 由于NovicebootJs基于**jQuery**，您首先需要引入**jQuery**
 
@@ -77,7 +77,7 @@ var NovicebootConfig = {
 	}]
 }
 ```
-##具体配置
+## 具体配置
 
  - `transparency` 浮层透明度，纯数值，可选值`0~1`
 
@@ -102,5 +102,5 @@ var NovicebootConfig = {
 
 		 -  `position` OK按钮的位置，字符串，支持左上/右上/左下/右下，可选值为`upperLeft`/`upperRight`/`lowerLeft`/`lowerRight`
 
-##感谢
+## 感谢
 感谢@GalaxyDL 提供箭头
